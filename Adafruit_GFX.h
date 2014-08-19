@@ -69,7 +69,7 @@ class Adafruit_GFX : public Print {
 
   uint8_t getRotation(void);
 
- protected:
+ public:
   const int16_t
     WIDTH, HEIGHT;   // This is the 'raw' display w/h - never changes
   int16_t
